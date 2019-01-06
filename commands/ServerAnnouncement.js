@@ -9,7 +9,7 @@ module.exports.run = async(bot, message, args) => {
     if(message.member.roles.has(Admin.id))
     {
         message.delete(1000);
-        var Anounce = CreateEmbed(`${message.content.slice(12)}`, `STATEWIDE EMERGENCY SERVICES ALERT SYSTEM`, `Statewide Emergency Services | Announcement by **SES ALERT SYSTEM**`);     
+        var Anounce = CreateEmbed(`${message.content.slice(12)}`, `STATEWIDE EMERGENCY SERVICES ALERT SYSTEM`, `Statewide Emergency Services Alert System`);     
         console.log(`${message.author.username} made an announcement`);
 
         message.channel.send(Anounce)
