@@ -16,7 +16,7 @@ const ServerName = "Statewide Emergency Services";
 const SupportChannelCatagory = '531045570924642304';
 const EmbedColor = 0x80bfff;
 
-let status = ['DM For Support', 'SES DEVSTREAM IS CURRENTLY LIVE'];
+let status = ['ses!help', 'Follow ALL Server Rules', `ses!help`, 'DM for Support'];
 
 bot.login(process.env.BOT_TOKEN);
 
