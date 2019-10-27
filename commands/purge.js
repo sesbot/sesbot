@@ -2,7 +2,7 @@ const Discord = require("discord.js");
 
 
 module.exports.run = async(bot, message, args) => {
-    let Admin = message.guild.roles.find("name", "Admin");
+    let Admin = message.guild.roles.find("name", "Staff Official");
     
 
     if(message.member.roles.has(Admin.id))
@@ -29,7 +29,7 @@ module.exports.help = {
 
 function CreateEmbed(Description, author, footer)
 {
-    const EmbedColor = 0x80bfff;
+    const EmbedColor = 0x211e56;
     const newChannel = new Discord.RichEmbed()
     .setColor(EmbedColor)
     .setDescription(Description)
