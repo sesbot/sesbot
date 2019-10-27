@@ -26,7 +26,7 @@ module.exports.help = {
 
 function CreateEmbed(Description, author, footer)
 {
-    const EmbedColor = 0x80bfff;
+    const EmbedColor = 0x211e56;
     const newChannel = new Discord.RichEmbed()
     .setColor(EmbedColor)
     .setDescription(Description)
@@ -38,7 +38,7 @@ function CreateEmbed(Description, author, footer)
 
 function CreateEmbedAdvanced(Target, message,reason,Description, Title, author, footer)
 {
-    const EmbedColor = 0x80bfff;
+    const EmbedColor = 0x211e56;
     const newChannel = new Discord.RichEmbed()
         .setThumbnail(Target.user.avatarURL)
         .setTitle(Title)
