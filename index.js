@@ -11,10 +11,10 @@ const queue = new Map();
 bot.commands = new Discord.Collection();
 const TicketSystem = new Enmap();
 
-const ServerID = '531004292891541512';
+const ServerID = '596925768009908224';
 const ServerName = "Statewide Emergency Services";
-const SupportChannelCatagory = '531045570924642304';
-const EmbedColor = 0x80bfff;
+const SupportChannelCatagory = '637716519882588165';
+const EmbedColor = 0x211e56;
 
 let status = ['ses!help', 'Follow ALL Server Rules', `ses!help`, 'DM for Support'];
 
