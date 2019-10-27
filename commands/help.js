@@ -13,7 +13,7 @@ module.exports.help = {
 
 function CreateEmbedAdvanced(Description, Title, author, footer)
 {
-    const EmbedColor = 0x80bfff;
+    const EmbedColor = 0x211e56;
     const newChannel = new Discord.RichEmbed()
     .setTitle(Title)
     .setColor(EmbedColor)
