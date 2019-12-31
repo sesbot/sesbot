@@ -1,7 +1,7 @@
 {
   "name": "ses-bot",
   "version": "1.0.0",
-  "description": "This bot is used inside StatewideES (FiveM) Roleplay Server.",
+  "description": "This bot is used inside Official Statewide (FiveM) Roleplay Server.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
